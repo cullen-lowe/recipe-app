@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>DATABASE</ID>
+  <OriginalElement>77f9d994-8dbb-419f-98df-4cd87956f1bf</OriginalElement>
+  <nodes>
+    <node x="268.5" y="100.0">77f9d994-8dbb-419f-98df-4cd87956f1bf.TABLE:Recipe App.public.tag</node>
+    <node x="133.5" y="-92.0">77f9d994-8dbb-419f-98df-4cd87956f1bf.TABLE:Recipe App.public.difficulty</node>
+    <node x="-13.5" y="100.0">77f9d994-8dbb-419f-98df-4cd87956f1bf.TABLE:Recipe App.public.unit</node>
+    <node x="-46.5" y="492.5">77f9d994-8dbb-419f-98df-4cd87956f1bf.TABLE:Recipe App.public.recipe_ingredient</node>
+    <node x="-124.5" y="260.0">77f9d994-8dbb-419f-98df-4cd87956f1bf.TABLE:Recipe App.public.ingredient</node>
+    <node x="136.5" y="224.0">77f9d994-8dbb-419f-98df-4cd87956f1bf.TABLE:Recipe App.public.recipe</node>
+    <node x="248.0" y="540.5">77f9d994-8dbb-419f-98df-4cd87956f1bf.TABLE:Recipe App.public.recipe_tag</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="77f9d994-8dbb-419f-98df-4cd87956f1bf.TABLE:Recipe App.public.recipe_ingredient" target="77f9d994-8dbb-419f-98df-4cd87956f1bf.TABLE:Recipe App.public.recipe" relationship="REFERENCES">
+      <point x="83.0" y="-91.5" />
+      <point x="161.0" y="464.0" />
+      <point x="238.0" y="464.0" />
+      <point x="0.0" y="80.0" />
+    </edge>
+    <edge source="77f9d994-8dbb-419f-98df-4cd87956f1bf.TABLE:Recipe App.public.recipe_tag" target="77f9d994-8dbb-419f-98df-4cd87956f1bf.TABLE:Recipe App.public.recipe" relationship="REFERENCES">
+      <point x="-35.0" y="-43.5" />
+      <point x="283.0" y="464.0" />
+      <point x="238.0" y="464.0" />
+      <point x="0.0" y="80.0" />
+    </edge>
+    <edge source="77f9d994-8dbb-419f-98df-4cd87956f1bf.TABLE:Recipe App.public.recipe_tag" target="77f9d994-8dbb-419f-98df-4cd87956f1bf.TABLE:Recipe App.public.tag" relationship="REFERENCES">
+      <point x="35.0" y="-43.5" />
+      <point x="353.0" y="504.0" />
+      <point x="358.0" y="504.0" />
+      <point x="0.0" y="44.0" />
+    </edge>
+    <edge source="77f9d994-8dbb-419f-98df-4cd87956f1bf.TABLE:Recipe App.public.recipe" target="77f9d994-8dbb-419f-98df-4cd87956f1bf.TABLE:Recipe App.public.difficulty" relationship="REFERENCES">
+      <point x="0.0" y="-80.0" />
+      <point x="0.0" y="56.0" />
+    </edge>
+    <edge source="77f9d994-8dbb-419f-98df-4cd87956f1bf.TABLE:Recipe App.public.recipe_ingredient" target="77f9d994-8dbb-419f-98df-4cd87956f1bf.TABLE:Recipe App.public.ingredient" relationship="REFERENCES">
+      <point x="-83.0" y="-91.5" />
+      <point x="-5.0" y="464.0" />
+      <point x="-42.0" y="464.0" />
+      <point x="0.0" y="44.0" />
+    </edge>
+    <edge source="77f9d994-8dbb-419f-98df-4cd87956f1bf.TABLE:Recipe App.public.recipe_ingredient" target="77f9d994-8dbb-419f-98df-4cd87956f1bf.TABLE:Recipe App.public.unit" relationship="REFERENCES">
+      <point x="0.0" y="-91.5" />
+      <point x="78.0" y="464.0" />
+      <point x="98.0" y="464.0" />
+      <point x="0.0" y="44.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Compact" zoom="1.0" showDependencies="false" x="161.5" y="292.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Columns</Category>
+    <Category>Comments</Category>
+    <Category>Key columns</Category>
+    <Category>Virtual foreign keys</Category>
+  </Categories>
+</Diagram>
+
